@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-clases</title>
+    <style>
+      body {
+        background-color: rgb(65, 64, 64);
+
+      }
+      a {
+        text-decoration: none;
+        color: greenyellow;
+      }
+      a:active {
+        color: aqua;
+      }
+      a:hover {
+        color: rgb(45, 248, 5);
+        font-style: italic;
+      }
+
+      .btn {
+        background-color: forestgreen;
+        color: aliceblue;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 50px;
+        /* LO SOBRE ESCRIBE */
+      }
+      .btn:hover {
+        background-color: rgb(0, 66, 0);
+        color: rgb(123, 255, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <br />
+    <a href="#" class="btn">Soy Un Link</a>
+    <br />
+    <br />
+    <button class="btn">Soy Un Boton</button>
+  </body>
+</html>

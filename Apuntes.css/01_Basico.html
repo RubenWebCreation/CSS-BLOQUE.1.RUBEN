@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Basico</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      /* Selector Universal */
+      * {
+        background-color: rgb(97, 97, 97);
+      }
+      /* Selector Elementos */
+      p {
+        color: blue;
+      }
+      /*
+Comentario css
+*/
+      h1,
+      p {
+        background-color: aqua;
+      }
+
+      /* Selector de Clase */
+      .opcionales {
+        color: azure;
+        background-color: crimson;
+      }
+
+      p.texto_peque {
+        font-size: small;
+      }
+/* Selector Id */
+    #unico{
+color: #ff0000;
+    }
+    /* Selector anidado */
+     #welcome p {
+      color: darkturquoise;
+     }
+    </style>
+  </head>
+
+  <body>
+    <h1 style="color: rgb(46, 46, 46); background-color: gold">
+      Selectores Basicos: Elementos
+    </h1>
+    <p>Esto Es un Parrafo 1</p>
+    <h1>Otro h1</h1>
+    <p style="color: violet">Esto Es un Parrafo 1</p>
+    <h2 id="unico">MAS Parrafos</h2>
+    <p>Parrafo A</p>
+    <p class="opcionales texto_peque">Parrafo B</p>
+    <p class="opcionales">Parrafo C</p>
+    <p class="texto_peque">Parrafo D</p>
+
+    <div id="welcome">
+      <p>Ultimo Parrafo</p>
+    </div>
+    
+  </body>
+</html>

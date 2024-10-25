@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(63, 128, 128);
+      }
+      /* Estilo para el navbar */
+      .navbar {
+        background-color: rgb(54, 204, 209);
+        list-style: none;
+        padding: 0;
+        overflow: auto;
+        border-radius: 20px;
+        /* height: 60px; */
+      }
+      .navbar li {
+        background-color: rgb(148, 149, 150);
+        float: right;
+        margin: 4px;
+        /* display: inline-block; */
+        border-radius: 20px;
+      }
+
+      .navbar li a {
+        padding: 10px 20px;
+        background-color: rgb(7, 175, 97);
+        display: block;
+        text-decoration: none;
+        border-radius: 20px;
+      }
+      .navbar li a:hover {
+        background-color: rgb(184, 184, 184);
+        color: rgb(2, 231, 136);
+      }
+      /* Estilo Para El side-bar */
+      .side-bar {
+        list-style: none;
+        border: 1px solid rgb(0, 255, 179);
+        border-radius: 10px;
+        width: 240px;
+        padding: 20px;
+      }
+      .side-bar li {
+        font-size: 1.2rem;
+        line-height: 2.4;
+        border-bottom: dotted 2px #a1a1a1;
+      }
+
+      .side-bar li:last-child {
+        border: none;
+      }
+
+      .side-bar li a {
+        text-decoration: none;
+        color: #afa7a7;
+      }
+      .side-bar li a:hover {
+        color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="navbar">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Sobre Nosotros</a></li>
+      <li><a href="#">Servicos</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+
+    <ul class="side-bar">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Sobre Nosotros</a></li>
+      <li><a href="#">Servicos</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </body>
+</html>

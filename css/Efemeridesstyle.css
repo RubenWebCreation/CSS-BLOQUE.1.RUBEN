@@ -1,0 +1,33 @@
+body {
+    background-color: orange;
+}
+main {
+    background-color: aliceblue;
+    padding: 10px;
+}
+section {
+    background-color: orange;
+    border: 5px solid #b94c03a1;
+    margin: 10px;
+}
+ section h3{
+    background-color: rgb(204, 99, 0);
+    margin: 0;
+}
+
+article {
+    background-color: rgb(252, 219, 34);
+    border: 5px solid rgb(230, 89, 7);
+    margin: 10px 4%;
+    display: inline-block;
+    width: 40%;
+}
+
+article h4 {
+    background-color: hwb(24 0% 5%);
+    margin: 0px;
+}
+article p {
+    padding: 10px;
+    
+}

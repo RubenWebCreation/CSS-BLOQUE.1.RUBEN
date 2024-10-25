@@ -1,0 +1,87 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(187, 213, 236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+main{
+    margin: 8rem auto;
+    max-width: 960;
+}
+header {
+    background-color: rgb(25, 25, 65);
+    color: aliceblue;
+}
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    background-color: rgb(25, 25, 65);
+    color: aliceblue;
+}
+/* Navbar stiky */
+nav {
+    position: sticky;
+    top: 0;
+    border-top: green solid 4px;
+    background-color: rgb(25, 25, 65);
+    text-align: right;
+}
+
+nav ul{
+    list-style: none;
+
+}
+ nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+ }
+ nav li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0.4rem;
+    display: block;
+ }
+
+ /* article */
+ article{
+    width: 80%;
+    margin: 40px 10%;
+    background-color: aliceblue;
+    border-radius: 20;
+    overflow: hidden;
+ }
+
+ article h3{
+    background-color: green solid 4px;
+    text-align: left;
+    color: aliceblue;
+    padding-left: 12px;
+    margin:0;
+ }
+
+ article p{
+    padding: 20px;
+    margin: 0;
+ }
+
+ .to-top{
+    background-color: blue;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    border-radius: 50%;
+ }
+ .to-top a{
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px;
+ }

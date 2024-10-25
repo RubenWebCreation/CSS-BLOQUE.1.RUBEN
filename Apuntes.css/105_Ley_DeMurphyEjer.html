@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeyDeMurphy Ejercicio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(165, 165, 165);
+        text-align: center;
+        font-size: small;
+      }
+      #box-1 {
+        position: absolute;
+        top: 30px;
+        left: 700px;
+        margin: 10px;
+        border: 1px solid #143306;
+        background-color: rgb(255, 214, 127);
+        height: 50px;
+        width: 500px;
+      }
+      #box-2 {
+        position: absolute;
+        top: -60px;
+        left: 560px;
+        margin: 250px;
+        border: 1px solid #000000;
+        background-color: rgb(122, 238, 128);
+        text-align: center;
+        width: 280px;
+        z-index: 2;
+      }
+      #box-3 {
+        position: absolute;
+        top: 90px;
+        left: 580px;
+        margin: 30px;
+        width: 20;
+        border: 1px solid #99892c;
+        background-color: rgb(255, 246, 115);
+        text-align: left;
+        width: 280px;
+        z-index: 4;
+      }
+      #box-4 {
+        position: absolute;
+        top: 90px;
+        left: 970px;
+        margin: 30px;
+        width: 20;
+        border: 1px solid #5aa8b6;
+        background-color: rgb(121, 233, 233);
+        text-align: right;
+        width: 280px;
+        z-index: 1;
+      }
+      #box-5 {
+        position: absolute;
+        top: 220px;
+        left: 580px;
+        margin: 30px;
+        width: 20;
+        border: 1px solid #944190;
+        background-color: rgb(226, 168, 218);
+        text-align: left;
+        width: 280px;
+        z-index: 3;
+      }
+      #box-6 {
+        position: absolute;
+        top: 220px;
+        left: 970px;
+        margin: 30px;
+        width: 20;
+        border: 1px solid #b97777;
+        background-color: rgb(235, 163, 163);
+        text-align: right;
+        width: 280px;
+      }
+      .box {
+        height: 100px;
+        display: block;
+        z-index: 1;
+      }
+      #box-2:hover {
+        z-index: 20;
+        top: -80px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Leyes de Murphy</h1>
+    <div id="box-1"><p>Cualquier Cosa puede ir mal, ..ira mal</p></div>
+
+    <div id="box-2" class="box">
+      Todo aquello que comienza bien, acaba mal. Todo aquello que comienza mal,
+      acaba peor.
+    </div>
+
+    <div id="box-3" class="box">
+      Si sabes que una cosa puede ir mal y tomas todas las precauciones, irá mal
+      otra cosa.
+    </div>
+
+    <div id="box-4" class="box">
+      No hay nada que vaya tan mal que no pueda ir peor.
+    </div>
+
+    <div id="box-5" class="box">Todo va mal a la vez.</div>
+
+    <div id="box-6" class="box">Murphy era un optimista</div>
+  </body>
+</html>

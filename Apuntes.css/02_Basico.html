@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fuentes</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
+    <style>
+      /* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+      @font-face {
+        font-family: "fuente descargada";
+        src: url("../fonts/Melted\ Monster.ttf");
+      }
+
+        @font-face {
+            font-family: FuenteGoogle;
+            src: url("../fonts/SixtyfourConvergence-Regular-VariableFont_BLED\,SCAN\,XELA\,YELA.ttf");
+        }
+      
+      h2 {
+        color: rgb(87, 87, 87);
+        font-size: xx-large;
+        font-family: fuente descargada;
+      }
+      * {
+        font-size: 16px;
+      }
+      body {
+        /* font-family: Georgia, 'Times New Roman', Times, serif; */
+
+        font-size: 1.2rem;
+      }
+      p {
+        font-weight: 50;
+        font-family: FuenteGoogle;
+        font-size: 2rem;
+      }
+
+      #welcome p span {
+        font-size: 3rem;
+      }
+
+      #about p span {
+        font-weight: 800;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2 class="primary_header">Bienvenidos <span>a</span> CSS</h2>
+      <p>
+        Lorem ipsum dolor sit amet <span>consectetur</span>, adipisicing elit.
+        Soluta asperiores sint neque accusamus reiciendis unde rem harum
+        temporibus iusto voluptates provident fugit doloremque officiis,
+        corrupti quas ratione voluptas quisquam nam.
+      </p>
+    </div>
+    <div id="about">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+        eveniet sunt saepe, officia autem animi illum distinctio
+        <span
+          >recusandae dolores accusamus. Officia a vitae labore eligendi
+          praesentium saepe rerum,</span
+        >
+        itaque voluptatibus.
+      </p>
+    </div>
+  </body>
+</html>
